@@ -19,9 +19,10 @@ class ViewController: UIViewController {
     let result = number1 / number2
     return Double(result)
   }
-  func Division(number1: Int , number2: Int) -> Double{
+  func Division(number1: Int , number2: Int) {
    let result = number1 / (number2 + 5)
-    return Double(result)
+    print(result)
+   
   }
   
 
