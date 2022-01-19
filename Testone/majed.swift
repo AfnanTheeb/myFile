@@ -7,10 +7,14 @@
 
 import Foundation
 
-struct Person{
+struct codable{
     var name:String
     
 }
 
+
 let person = Person(name: "Ahmed")
 let newObj = Person(name: "Hamad")
+
+
+
