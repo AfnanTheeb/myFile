@@ -13,6 +13,18 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+  
+  
+  func Division(number1: Int , number2: Int) -> Double{
+    let result = number1 / number2
+    return Double(result)
+  }
+  func Division(number1: Int , number2: Int) -> Double{
+   let result = number1 / (number2 + 5)
+    return Double(result)
+  }
+  
+
 
 
     
