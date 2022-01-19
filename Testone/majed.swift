@@ -7,10 +7,3 @@
 
 import Foundation
 
-struct Person{
-    var name:String
-    var age:Int
-}
-
-let person = Person(name: "Ahmed", age: 24)
-let newObj = person
