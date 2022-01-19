@@ -9,8 +9,12 @@ import Foundation
 
 struct codable{
     var name:String
-    var age:Int
+    
 }
 
-let person = Person (name: "osama", age: 24)
-let newObj = Person(name: "Hamad", age: 25)
+
+let person = Person(name: "Ahmed")
+let newObj = Person(name: "Hamad")
+
+
+
